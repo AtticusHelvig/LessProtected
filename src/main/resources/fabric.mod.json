@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "less_protected",
+	"version": "${version}",
+	"name": "Less Protected",
+	"description": "Configurable armor protection multipliers.",
+	"authors": [
+		"A. Helvig"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/less-protected",
+		"sources": "https://github.com/AtticusHelvig/LessProtected"
+	},
+	"license": "MIT",
+	"icon": "assets/less_protected/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.atticus.less_protected.LessProtected"
+		]
+	},
+	"mixins": [
+		"less_protected.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.6",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {}
+}
